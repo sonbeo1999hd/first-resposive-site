@@ -1,0 +1,35 @@
+
+.demo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box{
+    height: 100px;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px){
+    .dark-blue{
+        width: 50%;
+        height: 200px;
+    }
+    #container2{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 700px){
+    .dark-blue{
+        width: 25%;
+        order: 1;
+        height: 200px;
+    }
+    #container2{
+        width: 50%;
+    }
+    .red{
+        width: 25%;
+        order: -1;
+        height: 200px;
+    }
+}
